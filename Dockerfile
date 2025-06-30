@@ -1,4 +1,4 @@
-FROM ghcr.io/microsoft/playwright:v1.39.0-jammy
+FROM browserless/chrome:latest
 
 WORKDIR /app
 
