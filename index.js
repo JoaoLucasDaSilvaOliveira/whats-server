@@ -30,7 +30,6 @@ client.on('message', async msg => {
 
 client.initialize();
 
-// Mini status server
 app.get('/', (req, res) => {
     res.send('🤖 Bot de WhatsApp rodando!');
 });
